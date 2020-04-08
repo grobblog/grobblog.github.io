@@ -21,6 +21,8 @@ body
 
 /* The grid: Four equal columns that floats next to each other */
 .column {
+    position: relative;
+    left: 10px;
     float: left;
     width: 25%;
     padding: 10px;
