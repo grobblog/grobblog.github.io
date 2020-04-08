@@ -17,6 +17,9 @@ body
 {
     font-family: 'Montserrat', sans-serif, Arial;
 }
+* {
+    box-sizing: border-box;
+}
 /* The grid: Four equal columns that floats next to each other */
 .column {
     position: relative;
