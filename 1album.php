@@ -1,0 +1,140 @@
+<?php require'headtml.php'; ?>
+ <body  class="single-post" >
+
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="demo-images/hotpng.com.png" alt="Loading...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Left Sidebar -->
+        <div id="sidebar" class="sidebar">
+            <div class="menu-left-part">
+                <div class="search-holder">
+                    <label>
+                        <input type="search" class="search-field" placeholder="Type here to search..." value="" name="s" title="Search for:">
+                    </label>
+                </div>
+                <div class="site-info-holder">
+                    <div class="site-title">Со скоростью мира</div>
+                    <p class="site-description">
+                        Сквозь огни, сквозь леса — на послушном ковре
+На заре, наяву, да со скоростью мира
+Самое время.
+                    </p>
+                </div>
+                <?php require'leftsidebartml.php';?>
+
+        <!-- Single Content -->
+   
+        <div id="content" class="site-content center-relative" >
+            <div class="single-post-wrapper content-1070 center-relative">
+
+                <article class="center-relative">
+                    <h1 class="entry-title">
+                        Поганая Молодежь
+                    </h1>
+                    <div class="post-info content-660 center-relative">
+                        <div class="cat-links">
+                            <ul>
+                                <li><a href="#">Сибирский Панк-Рок</a></li>
+                            </ul>
+                        </div>
+                        <div class="entry-date published">1985</div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="entry-content">
+                        <div class="content-wrap content-660 center-relative">
+                            <p>«Поганая молодёжь» — первый официальный альбом группы «Гражданская оборона». Хотя официальной датой выхода альбома считается 1985 год, выпущен он был в 1989-м после ряда долгих изменений. Первоначально альбом распространялся в виде магнитоальбома. Пересведен и переиздан наряду с другими альбомами в 2006 году на лейбле «Мистерия звука».</p>
+                            <br>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="post-full-width">
+                            <script>
+                                var slider1_speed = "1000";
+                                var slider1_auto = "true";
+                                var slider1_pagination = "true";
+                                var slider1_hover = "true";
+                            </script>
+                            <div class="image-slider-wrapper">
+                                <div class="caroufredsel_wrapper">
+                                    <ul id="slider1" class="image-slider slides center-text">
+                                        <li><img src="demo-images/01_blogpost_galery.jpg" alt=""></li>
+                                        <li><img src="demo-images/02_blogpost_galery.jpg" alt=""></li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="slider1_pagination carousel_pagination left"></div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="content-wrap content-660 center-relative ">
+                            <h2>Гражданская оборона - Поганая молодёжь</h2></div>
+                        <audio src="Audio/%D0%93%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D0%9E%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D0%B0%20-%20%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%B6%D1%8C.mp3" controls></audio>
+                        <div class="content-wrap content-660 center-relative ">
+                            <p>После роспуска проекта «Посев» в ноябре 1984 года Егор Летов и Константин Рябинов создают группу с названием «Гражданская оборона». Изначально ими было принято решение сделать упор на студийные записи, так как вопрос о живых выступлениях группы тогда не ставился. Запись осуществлялась в различных условиях, начиная от домашних и заканчивая полустудийными. Результатом стало большое количество вариантов этой записи, некоторые из которых имели известность в качестве бутлегов.</p>
+                            <br>
+                            <p class="wrap-blockquote">
+1.«Поганая молодёжь» | Автор: Егор Летов, Константин Рябинов | Длительность 2:30.
+<br>
+2.«Снаружи всех измерений» | Автор: Егор Летов | Длительность	2:57.
+<br>
+3.«Двоится в глазах» | Автор: Егор Летов	| Длительность	1:11.
+<br>
+4.«Старость - не радость» | Автор: Егор Летов, Константин Рябинов| Длительность	2:46.
+<br>
+5.«Я выдуман напрочь» | Автор: Егор Летов	| Длительность	2:06.
+<br>
+6.«Ненавижу женщин (таких, как ты)» |	Автор: Егор Летов	| Длительность	3:06.
+<br>
+7.«Поезд на Малую Землю» | Автор: Егор Летов	| Длительность	2:04.
+<br>
+8.«Не смешно»	| Автор: Егор Летов	| Длительность	2:01.
+<br>
+9.«Мама бля»	| Автор: Константин Рябинов	| Длительность	4:58.
+<br>
+10.«Лирическое настроение»	| Автор: Константин Рябинов	| Длительность	0:39.
+<br>
+11.«Клалафуда клалафу»	| Автор: Егор Летов, Константин Рябинов	| Длительность	1:48.
+<br>
+12.«Зоопарк»	| Автор: Егор Летов	| Длительность	3:03.
+<br>
+13.«Мама, мама…»	| Автор: Егор Летов	| Длительность	3:12.
+<br>
+14.«Хватит!»	| Автор: Егор Летов	| Длительность	1:19.
+<br>
+15.«Понос - апофеоз»	| Автор: Егор Летов, Константин Рябинов	| Длительность	0:32.</p>
+                            <br>
+                            <br>
+                            <img src="demo-images/one_drop_post_image02.jpg" alt="">
+                            <br>
+                            <br>
+                            <p>Джефф и Егор Летов в 1988 году.</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </article>
+            </div>
+        </div>
+
+
+
+        <!--Load JavaScript-->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+        <script type='text/javascript' src='js/jquery.nicescroll.min.js'></script>
+        <script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+        <script type='text/javascript' src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+        <script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+        <script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+        <script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+        <script type='text/javascript' src='js/main.js'></script>
+    </body>
+</html>
