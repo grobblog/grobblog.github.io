@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Слайдер на CSS</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        
+!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Блог посвещенный Гражданской Обороне</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Template by Colorlib" />
         <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
-       
+        <meta name="author" content="Colorlib" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         <link rel="shortcut icon" href="demo-images/hotpng.com.png" />
@@ -16,10 +15,27 @@
         <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
         <link rel="stylesheet" type="text/css"  href='css/carouFredSel.css' />
         <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
-        
-	
-</head>
-<body class="gallery">
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+    </head>
+    <body class="gallery">
+
+        <!-- Preloader Gif -->
+        <table class="doc-loader">
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="demo-images/hotpng.com.png" alt="Loading...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Left Sidebar -->
         <div id="sidebar" class="sidebar">
             <div class="menu-left-part">
                 <div class="search-holder">
@@ -37,7 +53,7 @@
 Никто не проиграл.
                     </p>
                 </div>
-                  <nav id="header-main-menu">
+                 <nav id="header-main-menu">
                     <ul class="main-menu sm sm-clean">
                         <li><a href="index.html" class="current">Главная</a></li>
                         <li><a href="about.html">О группе</a></li>
@@ -73,40 +89,3 @@
             </div>
             <div class="clear"></div>
         </div>
-	<div class="all">
-		<input checked type="radio" name="respond" id="desktop">
-			<article id="slider">
-					<input checked type="radio" name="slider" id="switch1">
-					<input type="radio" name="slider" id="switch2">
-					<input type="radio" name="slider" id="switch3">
-					<input type="radio" name="slider" id="switch4">
-					<input type="radio" name="slider" id="switch5">
-				<div id="slides">
-					<div id="overflow">
-						<div class="image">
-							<article><img src="demo-images/1.jpg"></article>
-							<article><img src="demo-images/2.jpg"></article>
-							<article><img src="demo-images/3.jpg"></article>
-							<article><img src="demo-images/4.jpg"></article>
-							<article><img src="demo-images/5.jpg"></article>
-						</div>
-					</div>
-				</div>
-				<div id="controls">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-					<label for="switch4"></label>
-					<label for="switch5"></label>
-				</div>
-				<div id="active">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-					<label for="switch4"></label>
-					<label for="switch5"></label>
-				</div>
-			</article>
-	</div>
-</body>
-</html>
