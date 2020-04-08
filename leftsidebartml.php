@@ -1,9 +1,9 @@
   <nav id="header-main-menu">
                     <ul class="main-menu sm sm-clean">
-                        <li><a href="index.php" class="current">Главная</a></li>
-                        <li><a href="about.php">О группе</a></li>
-                        <li><a href="scroll.php">Галерея</a></li>
-                        <li><a href="contact.php">Контакты</a></li>
+                        <li><a href="index.html" class="current">Главная</a></li>
+                        <li><a href="about.html">О группе</a></li>
+                        <li><a href="scroll.html">Галерея</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
                     </ul>
                 </nav>
                 <footer>
@@ -14,7 +14,7 @@
             </div>
             <div class="menu-right-part">
                 <div class="logo-holder">
-                    <a href="index.php">
+                    <a href="index.html">
                         <img src="demo-images/hotpng.com.png" alt="Suppablog WP">
                     </a>
                 </div>
